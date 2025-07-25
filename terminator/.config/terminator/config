@@ -1,0 +1,27 @@
+[global_config]
+  extra_styling = False
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.6
+    background_type = transparent
+    foreground_color = "#ffffff"
+    scrollback_lines = 1000
+    scrollback_infinite = True
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#ffa348:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#ffa348:#ff00ff:#00ffff:#ffffff"
+    custom_command = nu
+    title_transmit_fg_color = "#ff7800"
+    title_transmit_bg_color = "#000000"
+    title_receive_fg_color = "#ff7800"
+    title_receive_bg_color = "#000000"
+    title_inactive_fg_color = "#ffffff"
+    title_inactive_bg_color = "#000000"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
