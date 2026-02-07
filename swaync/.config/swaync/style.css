@@ -506,9 +506,9 @@
 .notification-image {
   min-width: 200px;
   min-height:200px;
-  max-width: 200px;
+  /*max-width: 200px;
   max-height: 200px;
-  object-fit: contain;  /* keeps aspect ratio */
+  object-fit: contain;*/  /* keeps aspect ratio */
 }
 
 .notification-action {

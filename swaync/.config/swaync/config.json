@@ -7,6 +7,7 @@
   "layer-shell": true,
   "layer-shell-cover-screen": true,
   "cssPriority": "application",
+  "css-file": "~/.config/swaync/style.css",
   "control-center-margin-top": 0,
   "control-center-margin-bottom": 0,
   "control-center-margin-right": 0,
